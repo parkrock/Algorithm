@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+	char name[10];
+
+	scanf("%s", name);
+
+	if (strcmp(name, "박태원") == 0) {
+		printf("%s, 안녕\n", name);
+	}
+	else {
+		printf("%s님, 안녕하세요.\n", name);
+	}
+	return 0;
+}
